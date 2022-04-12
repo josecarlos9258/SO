@@ -1,0 +1,7 @@
+tempo-execucao 10
+tempo-inactividade 5
+executar sleep 9 | ls /etc | wc -l
+executar sleep 10 | date
+executar grep -v ^# /etc/passwd | cut -f7 -d: | uniq | wc -l
+executar sleep 3 | sleep 3 | sleep 4 | ls
+executar sleep 3 | sleep 3 | sleep 3 | date

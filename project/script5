@@ -1,0 +1,8 @@
+-m 10
+-i 5
+-e "sleep 9 | ls /etc | wc -l"
+-e "sleep 10 | date"
+-e "grep -v ^# /etc/passwd | cut -f7 -d: | uniq | wc -l"
+-e "sleep 3 | sleep 3 | sleep 4 | date"
+-e "sleep 3 | sleep 3 | sleep 3 | date"
+

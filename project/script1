@@ -1,0 +1,4 @@
+tempo-execucao 5
+executar date
+executar sleep 20 | ls /etc | wc - l
+executar grep -v ^# /etc/passwd | cut -f7 -d: | uniq | wc -l

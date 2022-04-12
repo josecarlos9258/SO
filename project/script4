@@ -1,0 +1,4 @@
+tempo-inactividade 5
+executar date
+executar sleep 10 | ls /etc | wc - l
+executar sleep 2 | date

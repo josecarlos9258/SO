@@ -1,0 +1,4 @@
+executar ls /etc | sleep 6 | wc -l
+listar
+terminar 1
+listar
